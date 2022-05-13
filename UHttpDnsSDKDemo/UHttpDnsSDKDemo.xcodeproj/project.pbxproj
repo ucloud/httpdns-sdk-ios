@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2941A006273A6ADF00545E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941A005273A6ADF00545E95 /* AppDelegate.m */; };
+		2941A00C273A6ADF00545E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941A00B273A6ADF00545E95 /* ViewController.m */; };
+		2941A00F273A6ADF00545E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2941A00D273A6ADF00545E95 /* Main.storyboard */; };
+		2941A011273A6AE100545E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2941A010273A6AE100545E95 /* Assets.xcassets */; };
+		2941A014273A6AE100545E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2941A012273A6AE100545E95 /* LaunchScreen.storyboard */; };
+		2941A017273A6AE100545E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941A016273A6AE100545E95 /* main.m */; };
+		2941A03D273A726100545E95 /* UHttpDnsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2941A03C273A726100545E95 /* UHttpDnsSDK.framework */; };
+		2941A03E273A726100545E95 /* UHttpDnsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2941A03C273A726100545E95 /* UHttpDnsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2980932B282E535A00D4535A /* UHttpDnsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2980932A282E535A00D4535A /* UHttpDnsSDK.xcframework */; };
+		2982A7692760579100EB86F6 /* UUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982A7682760579100EB86F6 /* UUntil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2941A03F273A726100545E95 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2941A03E273A726100545E95 /* UHttpDnsSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2941A001273A6ADF00545E95 /* UHttpDnsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UHttpDnsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941A004273A6ADF00545E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2941A005273A6ADF00545E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2941A00A273A6ADF00545E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2941A00B273A6ADF00545E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2941A00E273A6ADF00545E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2941A010273A6AE100545E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2941A013273A6AE100545E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2941A015273A6AE100545E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2941A016273A6AE100545E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2941A03C273A726100545E95 /* UHttpDnsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UHttpDnsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2980932A282E535A00D4535A /* UHttpDnsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UHttpDnsSDK.xcframework; path = ../../UHttpDnsSDK.xcframework; sourceTree = "<group>"; };
+		2982A7672760579100EB86F6 /* UUntil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUntil.h; sourceTree = "<group>"; };
+		2982A7682760579100EB86F6 /* UUntil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUntil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29419FFE273A6ADF00545E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2980932B282E535A00D4535A /* UHttpDnsSDK.xcframework in Frameworks */,
+				2941A03D273A726100545E95 /* UHttpDnsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29419FF8273A6ADF00545E95 = {
+			isa = PBXGroup;
+			children = (
+				2941A003273A6ADF00545E95 /* UHttpDnsSDKDemo */,
+				2941A002273A6ADF00545E95 /* Products */,
+				2941A03B273A726100545E95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2941A002273A6ADF00545E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2941A001273A6ADF00545E95 /* UHttpDnsSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2941A003273A6ADF00545E95 /* UHttpDnsSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2941A004273A6ADF00545E95 /* AppDelegate.h */,
+				2941A005273A6ADF00545E95 /* AppDelegate.m */,
+				2980932A282E535A00D4535A /* UHttpDnsSDK.xcframework */,
+				2941A00A273A6ADF00545E95 /* ViewController.h */,
+				2941A00B273A6ADF00545E95 /* ViewController.m */,
+				2982A7662760575E00EB86F6 /* Until */,
+				2941A00D273A6ADF00545E95 /* Main.storyboard */,
+				2941A010273A6AE100545E95 /* Assets.xcassets */,
+				2941A012273A6AE100545E95 /* LaunchScreen.storyboard */,
+				2941A015273A6AE100545E95 /* Info.plist */,
+				2941A016273A6AE100545E95 /* main.m */,
+			);
+			path = UHttpDnsSDKDemo;
+			sourceTree = "<group>";
+		};
+		2941A03B273A726100545E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2941A03C273A726100545E95 /* UHttpDnsSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2982A7662760575E00EB86F6 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				2982A7672760579100EB86F6 /* UUntil.h */,
+				2982A7682760579100EB86F6 /* UUntil.m */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2941A000273A6ADF00545E95 /* UHttpDnsSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2941A01A273A6AE100545E95 /* Build configuration list for PBXNativeTarget "UHttpDnsSDKDemo" */;
+			buildPhases = (
+				29419FFD273A6ADF00545E95 /* Sources */,
+				29419FFE273A6ADF00545E95 /* Frameworks */,
+				29419FFF273A6ADF00545E95 /* Resources */,
+				2941A03F273A726100545E95 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UHttpDnsSDKDemo;
+			productName = UHttpDnsSDKDemo;
+			productReference = 2941A001273A6ADF00545E95 /* UHttpDnsSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29419FF9273A6ADF00545E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2941A000273A6ADF00545E95 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 29419FFC273A6ADF00545E95 /* Build configuration list for PBXProject "UHttpDnsSDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29419FF8273A6ADF00545E95;
+			productRefGroup = 2941A002273A6ADF00545E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2941A000273A6ADF00545E95 /* UHttpDnsSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29419FFF273A6ADF00545E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941A014273A6AE100545E95 /* LaunchScreen.storyboard in Resources */,
+				2941A011273A6AE100545E95 /* Assets.xcassets in Resources */,
+				2941A00F273A6ADF00545E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29419FFD273A6ADF00545E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982A7692760579100EB86F6 /* UUntil.m in Sources */,
+				2941A00C273A6ADF00545E95 /* ViewController.m in Sources */,
+				2941A006273A6ADF00545E95 /* AppDelegate.m in Sources */,
+				2941A017273A6AE100545E95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2941A00D273A6ADF00545E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2941A00E273A6ADF00545E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2941A012273A6AE100545E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2941A013273A6AE100545E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2941A018273A6AE100545E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2941A019273A6AE100545E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2941A01B273A6AE100545E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5B99XRG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UHttpDnsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ucloud.UHttpDnsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2941A01C273A6AE100545E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y5B99XRG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UHttpDnsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ucloud.UHttpDnsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29419FFC273A6ADF00545E95 /* Build configuration list for PBXProject "UHttpDnsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941A018273A6AE100545E95 /* Debug */,
+				2941A019273A6AE100545E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2941A01A273A6AE100545E95 /* Build configuration list for PBXNativeTarget "UHttpDnsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941A01B273A6AE100545E95 /* Debug */,
+				2941A01C273A6AE100545E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29419FF9273A6ADF00545E95 /* Project object */;
+}

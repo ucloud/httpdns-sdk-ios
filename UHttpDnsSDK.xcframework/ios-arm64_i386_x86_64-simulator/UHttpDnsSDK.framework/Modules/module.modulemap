@@ -1,0 +1,6 @@
+framework module UHttpDnsSDK {
+  umbrella header "UHttpDnsSDK.h"
+
+  export *
+  module * { export * }
+}
